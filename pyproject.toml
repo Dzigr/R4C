@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10"
 django = "^4.2.5"
 python-dotenv = "^1.0.0"
+gunicorn = "^21.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -17,3 +18,17 @@ ruff = "^0.0.291"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["E", "F", 'I']  # Default + iSort
+ignore = []
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = []
+per-file-ignores = {}
+
+line-length = 92
