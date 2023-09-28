@@ -1,0 +1,17 @@
+{
+  "valid_robot_data": {
+    "model": "AB",
+    "version": "01",
+    "created": "2023-09-28T12:00:00Z"
+  },
+  "invalid_date": {
+    "model": "AB",
+    "version": "01",
+    "created": "2023-09"
+  },
+  "invalid_model": {
+    "model": "ABC",
+    "version": "01",
+    "created": "2023-09-28T12:00:00Z"
+  }
+}
