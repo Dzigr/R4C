@@ -1,0 +1,10 @@
+{
+  "valid_order_data": {
+    "email": "test@test.net",
+    "robot_serial": "AB-11"
+  },
+  "invalid_order_data": {
+    "email": "test@test",
+    "robot_serial": "AC-19"
+  }
+}
