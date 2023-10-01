@@ -1,0 +1,54 @@
+[
+        {
+            "model": "robots.robot",
+            "pk": 100,
+            "fields": {
+              "serial": "AA-01",
+              "model": "AA",
+              "version": "01",
+              "created": "2023-09-28T12:00:00Z"
+            }},
+        {
+            "model": "robots.robot",
+            "pk": 101,
+            "fields": {
+            "serial": "AA-02",
+            "model": "AA",
+            "version": "02",
+            "created": "2023-09-28T12:00:00Z"
+        }},
+        {
+            "model": "robots.robot",
+            "pk": 102,
+            "fields": {
+            "serial": "AA-02",
+            "model": "AA",
+            "version": "03",
+            "created": "2023-09-28T12:00:00Z"
+        }},
+        {
+            "model": "robots.robot",
+            "pk": 103,
+            "fields": {
+            "serial": "AB-11",
+            "model": "AB",
+            "version": "11",
+            "created": "2023-09-28T12:00:00Z"
+        }},        {
+            "model": "robots.robot",
+            "pk": 104,
+            "fields": {
+            "serial": "AB-12",
+            "model": "AB",
+            "version": "12",
+            "created": "2023-09-28T12:00:00Z"
+        }},        {
+            "model": "robots.robot",
+            "pk": 105,
+            "fields": {
+            "serial": "AB-12",
+            "model": "AB",
+            "version": "12",
+            "created": "2023-09-28T12:00:00Z"
+        }}
+]
